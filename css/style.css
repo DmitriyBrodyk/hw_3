@@ -123,9 +123,9 @@ background-color: #f9f9f9;
 
 footer ul {
     padding: 0;
-    height: 15px;
+    
     list-style: none;
-    font-size: 15px;
+    
     line-height: 29px;
    }
 
@@ -147,6 +147,12 @@ footer a:hover {
     text-decoration: underline;
 }
 
-.last {
+footer li:last-child {
     float: right;
+}
+.last {
+    text-decoration: none;
+    color: #2c2c2c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
